@@ -1,0 +1,612 @@
+2025-06-17 15:23:51 - INFO - Async database connection pool initialized successfully
+2025-06-17 15:23:52 - INFO - Seed-Domain Table created successfully with primary key and unique constraints
+2025-06-17 15:23:52 - INFO - Crawled-Url Table created successfully with primary key and unique constraints
+2025-06-17 15:23:52 - INFO - Url-Relationship Table created successfully with primary key and unique constraints
+2025-06-17 15:23:52 - INFO - Processed 154 domains total
+2025-06-17 15:23:52 - INFO - Inserted 0 new domains: 
+2025-06-17 15:23:52 - INFO - Skipped 154 existing domains: ekantipur.com, annapurnapost.com, nagariknews.nagariknetwork.com, nayapatrikadaily.com, karobardaily.com, gorkhapatraonline.com, abhiyandaily.com, newsofnepal.com, arghakhanchi.com, souryaonline.com, rajdhanidaily.com, osnepal.com, nagariknetwork.com, baahrakhari.com, hamrokhelkud.com, thahakhabar.com, setopati.com, nepalkhabar.com, koshionline.com, hamrakura.com, onlinetvnepal.com, arthasarokar.com, nepalipatra.com, nayapage.com, nepalipaisa.com, nepalsamaya.com, bizshala.com, ujyaaloonline.com, pariwartankhabar.com, himalkhabar.com, radionepal.gov.np, ejanakpurtoday.com, nepalihimal.com, himalini.com, eadarsha.com, onlinemajdoor.com, topnepalnews.com, chitawan.com, aarthiknews.com, khasokhas.com, nepalipost.com, bbc.com/nepali, onlinekhabar.com, ratopati.com, nepallive.com, lokaantar.com, businesstvnepal.com, emountaintv.com, sagarmatha.tv, yohokhabar.com, news24nepal.com, kantipurtv.com, abcnepal.tv, makalutv.com.np, avenues.tv, saptahik.com.np, nepalmag.com.np, hknepal.com/deshbidesh, narimag.com.np, educationpati.com, aajakonews.com, barnanmedia.com, bhaktapurpost.com, bisalnepal.com, brtnepal.com, canadanepal.com, capitalnepal.com, dainiknepal.com, daunnenews.com, dcnepal.com, diyopost.com, drishtinews.com, enepalese.com, everestdainik.com, farakdhar.com, hamrobiratnagar.com, hamrokhotang.com, healthpati.com, hellokhabar.com, ictsamachar.com, imagekhabar.com, janaaastha.com, kakhara.com, kantipath.com, kathmandupati.com, kathmandupress.com, kendrabindu.com, khabarhub.com, kharibot.com, khojtalashonline.com, lokpath.com, madheshvani.com, mahendranagarpost.com, makalukhabar.com, mysansar.com, nagariknews.com, nayanepalnews.com, nepalghatana.com, nepalgunjnews.com, nepalihealth.com, nepalijanta.com, nepalpress.com, nepalviews.com, nepalwatch.com, newskarobar.com, nonstopkhabar.com, pahilopost.com, palikakhabar.com, pardafas.com, pokharanews.com, purbelinews.com, reportersnepal.com, safalnews.com, samacharpati.com, sancharkendra.com, sansarnews.com, saralpatrika.com, setokhari.com, shikharnews.com, shilapatra.com, spacesamachar.com, sunaulonepal.com, technologykhabar.com, techpana.com, livenepalnetwork.com, rastriyakhabar.com, nepaliakshar.com, bizkhabar.com, bigulnews.com, mithilajagaran.com, ghatanarabichar.com, onlinedarpan.com, meronews.com, banijyanews.com, lumbinisanchar.com, janaboli.com, newsabhiyan.com, himalpost.com, khullapana.com, merolifestyle.com, ekagaj.com, deshsanchar.com, gaulekhabar.com, samabesikhabar.com, sancharonline.com, hamrosambad.com, nepaltara.com, hulaksanchar.com, udhyognews.com, nagariktimes.com, nepalbahas.com, gorkhalikhabar.com, newsexpressnepal.com, mulukpati.com
+2025-06-17 15:23:52 - INFO - Starting to process seed domain: https://mithilajagaran.com/
+2025-06-17 15:23:52 - INFO - Seed domain already exists: https://mithilajagaran.com/
+2025-06-17 15:23:52 - INFO - Processing: https://mithilajagaran.com/ at depth 0
+2025-06-17 15:23:53 - INFO - Scrolling page: https://mithilajagaran.com/
+2025-06-17 15:24:51 - INFO - LoadMore attempt failed (1/1)
+2025-06-17 15:24:51 - INFO - LoadMore phase ended after a failed attempt
+2025-06-17 15:24:58 - INFO - Scroll #1 - Height: 11120
+2025-06-17 15:25:05 - INFO - Scroll #2 - Height: 11120
+2025-06-17 15:25:05 - INFO - Reached the bottom of the page
+2025-06-17 15:25:05 - INFO - Successfully completed scrolling
+2025-06-17 15:25:11 - INFO - Could not navigate to page 1, ending scraping
+2025-06-17 15:25:11 - INFO - 
+Scraping completed. Processed 1 pages.
+2025-06-17 15:25:11 - INFO - Only 1 page found via clickable pagination, continuing to URL-based pagination check
+2025-06-17 15:25:12 - INFO - Total pages detected: 1
+2025-06-17 15:25:12 - INFO - Error in URL-based pagination: list index out of range
+2025-06-17 15:25:14 - INFO - Successfully completed pagination
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223807 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223807
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=649 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=649
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223809 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223809
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=751 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=751
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223810 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223810
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223810) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223810) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/page.php?name=preeti2unicode info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/page.php?name=preeti2unicode
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223811 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223811
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=712 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=712
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223813 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223813
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/online_tv.php info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/online_tv.php
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223814 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223814
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=503 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=503
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223817 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223817
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=822 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=822
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223818 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223818
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223818) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=18 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=18
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223819 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223819
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=8 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=8
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223820 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223820
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=875 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=875
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223821 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223821
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=757 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=757
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223822 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223822
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223822) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223822) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223822) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223822) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=7 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=7
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223823 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223823
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223823) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223823) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=819 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=819
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223824 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223824
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=20 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=20
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223825 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223825
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=880 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=880
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223826 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223826
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=873 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=873
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223827 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223827
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223827) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223827) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=869 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=869
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223828 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223828
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=820 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=820
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223829 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223829
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=4 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=4
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223830 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223830
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=776 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=776
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223832 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223832
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=885 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=885
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223834 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223834
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=886 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=886
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223835 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223835
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223835) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223835) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=773 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=773
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223836 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223836
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=879 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=879
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223837 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223837
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=877 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=877
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223838 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223838
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=684 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=684
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223839 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223839
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223839) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?.post_id=18 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?.post_id=18
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223840 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223840
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=871 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=871
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223841 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223841
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223841) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223841) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=1 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=1
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223842 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223842
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=643 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=643
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223843 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223843
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=888 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=888
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223845 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223845
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=882 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=882
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223846 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223846
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=867 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=867
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223847 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223847
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=803 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=803
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223848 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223848
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223848) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223848) already exists.
+2025-06-17 15:25:14 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223848) already exists.
+2025-06-17 15:25:14 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223848) already exists.
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=123 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=123
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223849 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223849
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=855 info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=855
+2025-06-17 15:25:14 - INFO - Url relationship:crawl223807 -> crawl223850 added to the table successfully
+2025-06-17 15:25:14 - INFO - Created relationship: crawl223807 -> crawl223850
+2025-06-17 15:25:14 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:14 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=888 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=888
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=887 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=887
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223854 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223854
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=839 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=839
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223855 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223855
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223855) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223855) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=2 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=2
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223856 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223856
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223856) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=888 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=888
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223845) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=889 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=889
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223858 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223858
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=881 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=881
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223859 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223859
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223859) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223859) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=889 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=889
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=886 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=886
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223835) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223835) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=5 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=5
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223863 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223863
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=3 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=3
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223864 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223864
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=876 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=876
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223865 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223865
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223865) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223865) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=889 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=889
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223858) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=834 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=834
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223868 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223868
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223868) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223868) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=813 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=813
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223870 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223870
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=874 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=874
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223871 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223871
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223871) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223871) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=887 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=887
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223854) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223854) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=870 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=870
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223874 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223874
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=1 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=1
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223842) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=832 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=832
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223876 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223876
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223876) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223876) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223876) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223876) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=663 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=663
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223877 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223877
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223877) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223877) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223877) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223877) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=884 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=884
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223878 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223878
+2025-06-17 15:25:15 - INFO - Crawled Url:http://www.mithilajagaran.com info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: http://www.mithilajagaran.com
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223879 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223879
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223879) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223879) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=618 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=618
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223880 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223880
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223880) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223880) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=21 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=21
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223881 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223881
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223881) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223881) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=885 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=885
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223834) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/ info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223807) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=7 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=7
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223884 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223884
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223884) already exists.
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=6 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=6
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223885 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223885
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/category.php?category_id=19 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/category.php?category_id=19
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223886 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223886
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=878 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=878
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223887 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223887
+2025-06-17 15:25:15 - INFO - Crawled Url:https://mithilajagaran.com/post.php?post_id=883 info added to the table successfully
+2025-06-17 15:25:15 - INFO - Inserted child URL: https://mithilajagaran.com/post.php?post_id=883
+2025-06-17 15:25:15 - INFO - Url relationship:crawl223807 -> crawl223888 added to the table successfully
+2025-06-17 15:25:15 - INFO - Created relationship: crawl223807 -> crawl223888
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223888) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223888) already exists.
+2025-06-17 15:25:15 - ERROR - Error inserting relation URL: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223888) already exists.
+2025-06-17 15:25:15 - WARNING - Error processing URL in crawl_in_loop: duplicate key value violates unique constraint "unique_parent_child"
+DETAIL:  Key (parent_url_id, child_url_id)=(crawl223807, crawl223888) already exists.
+2025-06-17 15:25:15 - INFO - Updated URL ID https://mithilajagaran.com/ status to visited
+2025-06-17 15:25:15 - INFO - Marked https://mithilajagaran.com/ as visited
+2025-06-17 15:25:19 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C92E6EC10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f471e5b78194c6373ec4912976bc2fc
+2025-06-17 15:25:23 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C92E6E990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f471e5b78194c6373ec4912976bc2fc
+2025-06-17 15:25:27 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C92E64050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f471e5b78194c6373ec4912976bc2fc
+2025-06-17 15:25:31 - INFO - Reached maximum depth of 5 for domain https://mithilajagaran.com/
+2025-06-17 15:25:31 - INFO - Completed processing seed domain: https://mithilajagaran.com/
+2025-06-17 15:25:31 - INFO - No more seed domains to process - all domains completed!
+2025-06-17 15:25:31 - INFO - All seed domains have been processed!
+2025-06-17 15:25:31 - INFO - Database connection closed
